@@ -10,7 +10,7 @@ void main(){
   answer = rand.nextInt(100);
 
   do {
-    print("enter a gues :");
+    print("enter a guess:  ");
     temp =  stdin.readLineSync();
     guess = int.parse(temp);
 
